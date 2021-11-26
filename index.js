@@ -67,4 +67,25 @@ $(document).ready(function () {
             }
         }
     })
+
+    // 제품 수량
+    let $qty_up = $(".qty .qty-up");
+    let $qty_down = $(".qty .qty-down");
+    let $input = $(".qty .qty_input");
+    // 클릭
+    $qty_up.click(function (e) {
+        if ($input.val() >= 1 && $input.val() <= 9) {
+            $input.val(function (i, oldval) {
+                return ++oldval;
+            });
+        }
+    });
+
+    $qty_down.click(function (e) {
+        if ($input.val() <= 10 && $input.val() > 1) {
+            $input.val(function (i, oldval) {
+                return --oldval;
+            });
+        }
+    });
 });
