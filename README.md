@@ -18,6 +18,9 @@ The cornerstone of the database team(6) project
 - bootstrap version 5 -> 4
     - https://getbootstrap.com/docs/4.3/getting-started/introduction/
 
+# to edit
+user에 따라 top-sale와 special-price, new-items에 php 구문으로 넘겨줘야함( input value)
+
 # ?
 array_map
 foreach
