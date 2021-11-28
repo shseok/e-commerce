@@ -25,3 +25,7 @@ user에 따라 top-sale와 special-price, new-items에 php 구문으로 넘겨�
 array_map
 foreach
 data-filter(index.html)
+
+- top-sale에서 foreach -> map x 
+- special-price, cart-template ... 에서 foreach -> map 
+    - map = foreach

@@ -2,6 +2,7 @@
 $brand = array_map(function ($pro) {
     return $pro['item_brand'];
 }, $product_shuffle);
+
 $unique = array_unique($brand); // array 중복 값 제거
 sort($unique);
 shuffle($product_shuffle);

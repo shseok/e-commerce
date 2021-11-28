@@ -1,5 +1,5 @@
 <?php
-shuffle($product_shuffle);
+shuffle($product_shuffle); // header (functino.php)에 선언
 
 // request method post
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {

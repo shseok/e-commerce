@@ -13,6 +13,7 @@ $db = new DBController();
 
 // product 객체
 $product = new Product($db);
+$product_shuffle = $product->getData();
 
 // cart 객체
 $cart = new Cart($db);
