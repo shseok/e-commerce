@@ -17,3 +17,4 @@ $product_shuffle = $product->getData();
 
 // cart 객체
 $cart = new Cart($db);
+print_r($cart->getCartId($product->getData('cart')));

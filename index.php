@@ -1,4 +1,5 @@
 <?php
+// "Warning: Cannot modify header information - headers already sent by" error 해결
 ob_start();
 // include header.php
 include('header.php');

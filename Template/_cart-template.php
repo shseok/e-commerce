@@ -69,7 +69,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     <h6 class="font-size-12 font-baloo text-success py-3"><i class="fas fa-check"></i>해당 주문 금액으로
                         무료 배송 가능</h6>
                     <div class="border-top py-4">
-                        <h5 class="font-baloo font-size-20">Subtotal (<?php echo count($subTotal) ?? 0; ?>):&nbsp;<span class="text-danger">
+                        <h5 class="font-baloo font-size-20">Subtotal (<?php echo isset($subTotal) ? count($subTotal) : 0; ?>):&nbsp;<span class="text-danger">
                                 <span class="text-danger" id="deal-price"><?php echo isset($subTotal) ? $cart->getSum($subTotal) : 0; ?>원</span></span></h5>
                         <button class="btn btn-warning mt-3">구매진행</button>
                     </div>

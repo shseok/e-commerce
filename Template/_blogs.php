@@ -1,6 +1,6 @@
 <section id="blogs">
     <div class="container py-4">
-        <h4 class="font-baloo font-size-20">Latest Blogs</h4>
+        <h4 class="font-baloo font-size-20">최근 리뷰</h4>
         <hr>
         <div class="owl-carousel owl-theme">
             <div class="item">

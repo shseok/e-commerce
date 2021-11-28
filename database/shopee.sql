@@ -54,19 +54,19 @@ CREATE TABLE `product` (
 --
 
 INSERT INTO `product` (`item_id`, `item_brand`, `item_name`, `item_price`, `item_image`, `item_register`) VALUES
-(1, 'Samsung', 'Samsung Galaxy 10', 152.00, './assets/products/1.png', '2020-03-28 11:08:57'), -- NOW()
-(2, 'Redmi', 'Redmi Note 7', 122.00, './assets/products/2.png', '2020-03-28 11:08:57'),
-(3, 'Redmi', 'Redmi Note 6', 122.00, './assets/products/3.png', '2020-03-28 11:08:57'),
-(4, 'Redmi', 'Redmi Note 5', 122.00, './assets/products/4.png', '2020-03-28 11:08:57'),
-(5, 'Redmi', 'Redmi Note 4', 122.00, './assets/products/5.png', '2020-03-28 11:08:57'),
-(6, 'Redmi', 'Redmi Note 8', 122.00, './assets/products/6.png', '2020-03-28 11:08:57'),
-(7, 'Redmi', 'Redmi Note 9', 122.00, './assets/products/8.png', '2020-03-28 11:08:57'),
-(8, 'Redmi', 'Redmi Note', 122.00, './assets/products/10.png', '2020-03-28 11:08:57'),
-(9, 'Samsung', 'Samsung Galaxy S6', 152.00, './assets/products/11.png', '2020-03-28 11:08:57'),
-(10, 'Samsung', 'Samsung Galaxy S7', 152.00, './assets/products/12.png', '2020-03-28 11:08:57'),
-(11, 'Apple', 'Apple iPhone 5', 152.00, './assets/products/13.png', '2020-03-28 11:08:57'),
-(12, 'Apple', 'Apple iPhone 6', 152.00, './assets/products/14.png', '2020-03-28 11:08:57'),
-(13, 'Apple', 'Apple iPhone 7', 152.00, './assets/products/15.png', '2020-03-28 11:08:57');
+(1, 'Museum', 'Museum 빛: 영국 테이트미술관 특별전', 152.00, './image/items/items1.png', '2021-11-29 13:07:17'), -- NOW()
+(2, 'Event', 'Event 내맘쏙 모두의 그림책', 122.00, './image/items/items2.png', '2021-11-29 13:07:17'),
+(3, 'Museum', 'Museum 요시고 사진전：따뜻한 휴일의 기록', 122.00, './image/items/items3.png', '2021-11-29 13:07:17'),
+(4, 'Event', 'Event 살바도르 달리전', 122.00, './image/items/items4.png', '2021-11-29 13:07:17'),
+(5, 'Event', 'Event 칸딘스키, 말레비치＆러시아 아방가르드', 122.00, './image/items/items5.png', '2021-11-29 13:07:17'),
+(6, 'Event', 'Event 우연히 웨스 앤더슨', 122.00, './image/items/items6.png', '2021-11-29 13:07:17'),
+(7, 'Event', 'Event 샤갈 특별전', 122.00, './image/items/items7.png', '2021-11-29 13:07:17'),
+(8, 'Museum', 'Museum 게티이미지 사진전', 122.00, './image/items/items8.png', '2021-11-29 13:07:17'),
+(9, 'Event', 'Event 빛의 벙커 : 모네,르누아르...', 152.00, './image/items/items9.png', '2021-11-29 13:07:17'),
+(10, 'Event', 'Event dreamer, 3:45am', 152.00, './image/items/items10.png', '2021-11-29 13:07:17'),
+(11, 'Museum', 'Museum 로이리히텐슈타인', 152.00, './image/items/items11.png', '2021-11-29 13:07:17'),
+(12, 'Museum', 'Museum 초현실주의 거장들', 152.00, './image/items/items12.png', '2021-11-29 13:07:17'),
+(13, 'Museum', 'Museum 파라오의 비밀', 152.00, './image/items/items13.png', '2021-11-29 13:07:17');
 
 -- --------------------------------------------------------
 
@@ -86,8 +86,8 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`user_id`, `first_name`, `last_name`, `register_date`) VALUES
-(1, 'Daily', 'Tuition', '2020-03-28 13:07:17'),
-(2, 'Akshay', 'Kashyap', '2020-03-28 13:07:17');
+(1, '현석', '신', '2021-11-29 13:07:17'),
+(2, '혜란', '신', '2021-11-29 13:07:17');
 
 -- --------------------------------------------------------
 

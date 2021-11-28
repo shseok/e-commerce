@@ -33,7 +33,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                             <form method="post">
                                 <input type="hidden" name="item_id" value="<?php echo $item['item_id'] ?? '1'; ?>">
                                 <input type="hidden" name="user_id" value="<?php echo 1; ?>">
-                                <button type="submit" name="new_item_submit" class="btn btn-warning font-size-12">카트에 담기</button>
+                                <?php
+                                if (in_array($item['item_id'], $cart->getCartId($product->getData('cart')) ?? [])) {
+                                    echo '<button type="submit" disabled class="btn btn-success font-size-12">In the Cart</button>';
+                                } else {
+                                    echo '<button type="submit" name="top_sale_submit" class="btn btn-warning font-size-12">카트에 담기</button>';
+                                }
+                                ?>
                             </form>
                         </div>
                     </div>
