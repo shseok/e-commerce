@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="style.css">
 
     <?php
-    require('functions.php')
+    require('functions.php');
     ?>
 
     <title>E-commerce</title>

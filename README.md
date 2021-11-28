@@ -17,3 +17,8 @@ The cornerstone of the database team(6) project
 # trouble
 - bootstrap version 5 -> 4
     - https://getbootstrap.com/docs/4.3/getting-started/introduction/
+
+# ?
+array_map
+foreach
+data-filter(index.html)
